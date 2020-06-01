@@ -1,7 +1,7 @@
-export class Tile{
-  public name: string;
-  public description: string;
-  public imagePath: string;
+export class Thumbnail{
+   name: string;
+   description: string;
+   imagePath: string;
 
 
   constructor(name: string, description: string, imagePath: string) {
