@@ -1,0 +1,16 @@
+img{
+  width: 500px;
+  height: 600px;
+}
+
+.card{
+  overflow: hidden;
+  width: 500px;
+  padding: 30px;
+  border: 0;
+  background-color: transparent;
+}
+
+.card-block{
+  word-wrap: break-word;
+}
