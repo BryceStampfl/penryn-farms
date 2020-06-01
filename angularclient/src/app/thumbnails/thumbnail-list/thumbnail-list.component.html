@@ -1,0 +1,9 @@
+<div class="container-fluid ">
+  <div class="row">
+    <app-thumbnail class="col-md-4 card-deck"
+                   *ngFor="let thumbnailElement of thumbnails; let i = index"
+                   [thumbnail]="thumbnailElement"
+                   [index]="i"></app-thumbnail>
+  </div>
+</div>
+
